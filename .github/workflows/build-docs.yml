@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      SITE_NAME: ${{ vars.SITE_NAME }}
+      SITE_URL: ${{ vars.SITE_URL }}
     
     steps:
       - name: Checkout repository
