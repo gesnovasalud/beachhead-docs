@@ -31,7 +31,7 @@ return [
         'collapsible' => true,
 
         // A string of Markdown to show in the footer. Set to `false` to disable.
-        'footer' => '[Volver a '.env('SITE_NAME', 'HydePHP').'](http://localhost:8000)',
+        'footer' => '[Volver a '.env('SITE_NAME', 'HydePHP').'](/)',
 
         /*
         |--------------------------------------------------------------------------
