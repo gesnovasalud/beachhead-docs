@@ -1,3 +1,10 @@
+---
+title: "Agenda Quirúrgica"
+navigation:
+    label: "Agenda Quirúrgica"
+    priority: 5
+---
+
 # Agenda Quirúrgica
 
 ## Descripción General

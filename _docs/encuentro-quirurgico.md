@@ -1,3 +1,10 @@
+---
+title: "Encuentro Quirúrgico"
+navigation:
+    label: "Encuentro Quirúrgico"
+    priority: 6
+---
+
 # Encuentro Quirúrgico
 
 ## Descripción General

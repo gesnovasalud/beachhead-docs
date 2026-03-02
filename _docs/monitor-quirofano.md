@@ -1,3 +1,10 @@
+---
+title: "Monitor Quirófano"
+navigation:
+    label: "Monitor Quirófano"
+    priority: 9
+---
+
 # Monitor Quirófano
 
 ## Descripción General

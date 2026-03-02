@@ -1,3 +1,10 @@
+---
+title: "Agenda Prequirúrgica"
+navigation:
+    label: "Agenda Prequirúrgica"
+    priority: 3
+---
+
 # Agenda Prequirúrgica
 
 ## Descripción General

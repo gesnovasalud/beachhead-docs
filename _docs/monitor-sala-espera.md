@@ -1,3 +1,10 @@
+---
+title: "Monitor Sala de Espera"
+navigation:
+    label: "Monitor Sala de Espera"
+    priority: 10
+---
+
 # Monitor Sala de Espera
 
 ## Descripción General

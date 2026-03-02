@@ -1,3 +1,10 @@
+---
+title: "Escritorio"
+navigation:
+    label: "Escritorio"
+    priority: 1
+---
+
 # Escritorio
 
 ## Descripción General

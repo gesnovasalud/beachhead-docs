@@ -1,3 +1,10 @@
+---
+title: "Monitores"
+navigation:
+    label: "Monitores"
+    priority: 8
+---
+
 # Monitores
 
 ## Descripción General

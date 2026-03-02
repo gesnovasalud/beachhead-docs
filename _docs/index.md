@@ -1,3 +1,10 @@
+---
+title: "Documentación"
+navigation:
+    label: "Inicio"
+    priority: 0
+---
+
 # Documentación - Hospital de Quilpué
 
 Bienvenido a la documentación del sistema de gestión quirúrgica del Hospital de Quilpué.
@@ -5,26 +12,26 @@ Bienvenido a la documentación del sistema de gestión quirúrgica del Hospital 
 ## Índice de Contenidos
 
 ### Inicio
-- [01. Escritorio](01-escritorio.md) - Página principal y panel de control
+- [01. Escritorio](escritorio) - Página principal y panel de control
 
 ### Gestión de Solicitudes
-- [02. Solicitudes](02-solicitudes.md) - Creación y gestión de solicitudes quirúrgicas
+- [02. Solicitudes](solicitudes) - Creación y gestión de solicitudes quirúrgicas
 
 ### Fase Prequirúrgica
-- [03. Agenda Prequirúrgica](03-agenda-prequirurgica.md) - Planificación de evaluaciones prequirúrgicas
-- [04. Encuentro Prequirúrgico](04-encuentro-prequirurgico.md) - Registro de evaluación prequirúrgica
+- [03. Agenda Prequirúrgica](agenda-prequirurgica) - Planificación de evaluaciones prequirúrgicas
+- [04. Encuentro Prequirúrgico](encuentro-prequirurgico) - Registro de evaluación prequirúrgica
 
 ### Fase Quirúrgica
-- [05. Agenda Quirúrgica](05-agenda-quirurgica.md) - Programación de cirugías
-- [06. Encuentro Quirúrgico](06-encuentro-quirurgico.md) - Registro del procedimiento quirúrgico
+- [05. Agenda Quirúrgica](agenda-quirurgica) - Programación de cirugías
+- [06. Encuentro Quirúrgico](encuentro-quirurgico) - Registro del procedimiento quirúrgico
 
 ### Fase Postquirúrgica
-- [07. Encuentro Postquirúrgico](07-encuentro-postquirurgico.md) - Seguimiento y recuperación postoperatoria
+- [07. Encuentro Postquirúrgico](encuentro-postquirurgico) - Seguimiento y recuperación postoperatoria
 
 ### Monitores
-- [08. Monitores](08-monitores.md) - Visualización en tiempo real
-  - [08.1 Monitor de Quirófano](08.1-monitor-quirofano.md) - Para personal médico
-  - [08.2 Monitor de Sala de Espera](08.2-monitor-sala-espera.md) - Para pacientes y familiares
+- [08. Monitores](monitores) - Visualización en tiempo real
+  - [08.1 Monitor de Quirófano](monitor-quirofano) - Para personal médico
+  - [08.2 Monitor de Sala de Espera](monitor-sala-espera) - Para pacientes y familiares
 
 ## Navegación Rápida
 
