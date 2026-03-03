@@ -1,8 +1,7 @@
 ---
 title: "Agenda Quirúrgica"
 navigation:
-    label: "Agenda Quirúrgica"
-    priority: 5
+    priority: 15
 ---
 
 # Agenda Quirúrgica

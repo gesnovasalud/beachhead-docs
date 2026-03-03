@@ -1,8 +1,7 @@
 ---
 title: "Encuentro Quirúrgico"
 navigation:
-    label: "Encuentro Quirúrgico"
-    priority: 6
+    priority: 16
 ---
 
 # Encuentro Quirúrgico

@@ -1,8 +1,7 @@
 ---
 title: "Monitor Quirófano"
 navigation:
-    label: "Monitor Quirófano"
-    priority: 9
+    priority: 21
 ---
 
 # Monitor Quirófano

@@ -1,8 +1,7 @@
 ---
 title: "Encuentro Postquirúrgico"
 navigation:
-    label: "Encuentro Postquirúrgico"
-    priority: 7
+    priority: 17
 ---
 
 # Encuentro Postquirúrgico

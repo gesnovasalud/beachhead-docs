@@ -1,8 +1,7 @@
 ---
 title: "Encuentro Prequirúrgico"
 navigation:
-    label: "Encuentro Prequirúrgico"
-    priority: 4
+    priority: 14
 ---
 
 # Encuentro Prequirúrgico

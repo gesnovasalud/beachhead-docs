@@ -1,8 +1,7 @@
 ---
 title: "Solicitudes"
 navigation:
-    label: "Solicitudes"
-    priority: 2
+    priority: 12
 ---
 
 # Solicitudes
@@ -12,4 +11,4 @@ Para crear una solicitud debe hcer click en el botón
 
 ![Menú principal](/media/menu.jpeg)
 
-- Ejemplos
+#### 4 nivel

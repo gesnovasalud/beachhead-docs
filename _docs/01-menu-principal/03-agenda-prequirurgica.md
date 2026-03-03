@@ -1,8 +1,7 @@
 ---
 title: "Agenda Prequirúrgica"
 navigation:
-    label: "Agenda Prequirúrgica"
-    priority: 3
+    priority: 13
 ---
 
 # Agenda Prequirúrgica

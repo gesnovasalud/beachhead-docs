@@ -1,8 +1,7 @@
 ---
 title: "Monitor Sala de Espera"
 navigation:
-    label: "Monitor Sala de Espera"
-    priority: 10
+    priority: 22
 ---
 
 # Monitor Sala de Espera
