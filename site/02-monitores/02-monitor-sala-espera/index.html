@@ -1,0 +1,1361 @@
+<!--
+  ---------------------------------------------------------------
+  docmd : the minimalist, zero-config documentation generator.
+  @website https://docmd.io
+  [docmd-source] - Please do not remove this header.
+  ---------------------------------------------------------------
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="generator" content="docmd v0.4.x">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        var root = "../../";
+        if (root && !root.endsWith('/')) root += '/';
+        if (root === '') root = './';
+        window.DOCMD_ROOT = root;
+        window.DOCMD_DEFAULT_MODE = "system";
+    </script>
+    <title>Monitor Sala de Espera</title>
+    <link id="site-favicon" rel="icon" href="../../assets/favicon.ico?v=mmceywbu">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mmceywbu">
+    
+    <link rel="stylesheet" 
+          href="../../assets/css/docmd-highlight-light.css?v=mmceywbu" 
+          id="hljs-light" 
+          >
+          
+    <link rel="stylesheet" 
+          href="../../assets/css/docmd-highlight-dark.css?v=mmceywbu" 
+          id="hljs-dark" 
+          disabled>
+    
+    
+<meta name="description" content="Documentación construida con docmd.">
+<link rel="canonical" href="/02-monitores/02-monitor-sala-espera/">
+<meta property="og:title" content="Monitor Sala de Espera : SITGEQ - Sistema de Gestión de Quirófanos">
+<meta property="og:description" content="Documentación construida con docmd.">
+<meta property="og:url" content="/02-monitores/02-monitor-sala-espera/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Monitor Sala de Espera">
+<meta name="twitter:description" content="Documentación construida con docmd.">
+
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X9WTDL262N"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X9WTDL262N');
+    </script>
+
+
+    
+    <script>/**
+ * --------------------------------------------------------------------
+ * docmd : the minimalist, zero-config documentation generator.
+ *
+ * @package     @docmd/core (and ecosystem)
+ * @website     https://docmd.io
+ * @repository  https://github.com/docmd-io/docmd
+ * @license     MIT
+ * @copyright   Copyright (c) 2025 docmd.io
+ *
+ * [docmd-source] - Please do not remove this header.
+ * --------------------------------------------------------------------
+ */
+
+(function() {
+  try {
+    // 1. Determine Theme
+    var localValue = localStorage.getItem('docmd-theme');
+    var configValue = window.DOCMD_DEFAULT_MODE || 'light'; 
+    var theme = localValue ? localValue : configValue;
+    
+    if (theme === 'system') {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    // 2. Apply to Root
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    // 3. Highlight.js Toggle Strategy
+    var lightLink = document.getElementById('hljs-light');
+    var darkLink = document.getElementById('hljs-dark');
+    
+    if (lightLink && darkLink) {
+        if (theme === 'dark') {
+            lightLink.disabled = true;
+            darkLink.disabled = false;
+        } else {
+            lightLink.disabled = false;
+            darkLink.disabled = true;
+        }
+    }
+
+  } catch (e) {
+    console.error('Theme init failed', e);
+  }
+})();</script>
+</head>
+<body class="sidebar-collapsible" 
+      data-default-collapsed="false" 
+      data-copy-code-enabled="true"
+      data-spa-enabled="true">
+    
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            
+            <a href="/" class="logo-link">
+                <img src="../../assets/images/logo_sitgeq.png" alt="Logo SITGEQ" class="logo-light" >
+                <img src="../../assets/images/logo_sitgeq.png" alt="Logo SITGEQ" class="logo-dark" >
+            </a>
+            
+            <span class="mobile-view sidebar-menu-button float-right">
+                
+<svg class="lucide-icon icon-menu " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-menu"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+
+            </span>
+        </div>
+
+        
+            <div class="sidebar-options-wrapper">
+                
+
+
+<div class="docmd-options-menu">
+    
+    <button class="docmd-search-trigger" aria-label="Search">
+        
+<svg class="lucide-icon icon-search " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m21 21-4.34-4.34" />
+  <circle cx="11" cy="11" r="8" />
+</svg>
+
+        <span class="search-label">Search</span>
+        <span class="search-keys"><kbd class="docmd-kbd">⌘</kbd><kbd class="docmd-kbd">K</kbd></span>
+    </button>
+    
+
+    
+    <button class="theme-toggle-button" aria-label="Toggle theme">
+        
+<svg class="lucide-icon icon-sun icon-sun" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-sun"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+ 
+<svg class="lucide-icon icon-moon icon-moon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-moon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg>
+
+    </button>
+    
+
+    
+</div>
+
+            </div>
+        
+
+        
+
+<nav class="sidebar-nav" aria-label="Main Navigation">
+  <ul>
+    
+    <li class="" >
+      
+        <a href="../../" class="" >
+           
+<svg class="lucide-icon icon-home " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-house"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+  <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+</svg>
+ 
+          <span class="nav-item-title">Inicio</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="collapsible"  aria-expanded="false" >
+      
+        <span class="nav-label">
+           
+<svg class="lucide-icon icon-menu " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-menu"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+ 
+          <span class="nav-item-title">Menú Principal</span>
+           
+              <span class="collapse-icon-wrapper">
+<svg class="lucide-icon icon-chevron-right collapse-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+</span>
+          
+        </span>
+      
+      
+      
+        <ul class="submenu">
+          
+    <li class="" >
+      
+        <a href="../../01-menu-principal/01_escritorio" class="" >
+          
+          <span class="nav-item-title">Escritorio</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../01-menu-principal/02-solicitudes" class="" >
+          
+          <span class="nav-item-title">Solicitudes</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../01-menu-principal/03-agenda-prequirurgica" class="" >
+          
+          <span class="nav-item-title">Agenda Prequirúrgica</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../01-menu-principal/04-encuentro-prequirurgico" class="" >
+          
+          <span class="nav-item-title">Encuentro Prequirúrgico</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../01-menu-principal/05-agenda-quirurgica" class="" >
+          
+          <span class="nav-item-title">Agenda Quirúrgica</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../01-menu-principal/06-encuentro-quirurgico" class="" >
+          
+          <span class="nav-item-title">Encuentro Quirúrgico</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../01-menu-principal/07-encuentro-postquirurgico" class="" >
+          
+          <span class="nav-item-title">Encuentro Postquirúrgico</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+        </ul>
+      
+    </li>
+    
+    <li class="active-parent collapsible expanded"  aria-expanded="true" >
+      
+        <span class="nav-label">
+           
+<svg class="lucide-icon icon-monitor " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-monitor"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="20" height="14" x="2" y="3" rx="2" />
+  <line x1="8" x2="16" y1="21" y2="21" />
+  <line x1="12" x2="12" y1="17" y2="21" />
+</svg>
+ 
+          <span class="nav-item-title">Monitores</span>
+           
+              <span class="collapse-icon-wrapper">
+<svg class="lucide-icon icon-chevron-right collapse-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+</span>
+          
+        </span>
+      
+      
+      
+        <ul class="submenu">
+          
+    <li class="" >
+      
+        <a href="../../02-monitores/01-monitor-quirofano" class="" >
+          
+          <span class="nav-item-title">Monitor Quirófano</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="active" >
+      
+        <a href="../../02-monitores/02-monitor-sala-espera" class="active" >
+          
+          <span class="nav-item-title">Monitor Sala Espera</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+        </ul>
+      
+    </li>
+    
+    <li class="collapsible"  aria-expanded="false" >
+      
+        <span class="nav-label">
+           
+<svg class="lucide-icon icon-file-text " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-file-text"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 9H8" />
+  <path d="M16 13H8" />
+  <path d="M16 17H8" />
+</svg>
+ 
+          <span class="nav-item-title">Reportes</span>
+           
+              <span class="collapse-icon-wrapper">
+<svg class="lucide-icon icon-chevron-right collapse-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+</span>
+          
+        </span>
+      
+      
+      
+        <ul class="submenu">
+          
+    <li class="" >
+      
+        <a href="../../03-reportes/01-rem-a21" class="" >
+          
+          <span class="nav-item-title">REM A21</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+        </ul>
+      
+    </li>
+    
+    <li class="collapsible"  aria-expanded="false" >
+      
+        <span class="nav-label">
+           
+<svg class="lucide-icon icon-list " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-list"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 5h.01" />
+  <path d="M3 12h.01" />
+  <path d="M3 19h.01" />
+  <path d="M8 5h13" />
+  <path d="M8 12h13" />
+  <path d="M8 19h13" />
+</svg>
+ 
+          <span class="nav-item-title">Lista Espera</span>
+           
+              <span class="collapse-icon-wrapper">
+<svg class="lucide-icon icon-chevron-right collapse-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+</span>
+          
+        </span>
+      
+      
+      
+        <ul class="submenu">
+          
+    <li class="" >
+      
+        <a href="../../04-lista-espera/01-garantias-vigentes" class="" >
+          
+          <span class="nav-item-title">Garantías Vigentes</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+        </ul>
+      
+    </li>
+    
+    <li class="collapsible"  aria-expanded="false" >
+      
+        <span class="nav-label">
+           
+<svg class="lucide-icon icon-settings " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-settings"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" />
+  <circle cx="12" cy="12" r="3" />
+</svg>
+ 
+          <span class="nav-item-title">Configuración</span>
+           
+              <span class="collapse-icon-wrapper">
+<svg class="lucide-icon icon-chevron-right collapse-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+</span>
+          
+        </span>
+      
+      
+      
+        <ul class="submenu">
+          
+    <li class="" >
+      
+        <a href="../../05-configuracion/01-permisos" class="" >
+          
+          <span class="nav-item-title">Permisos</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../05-configuracion/02-roles" class="" >
+          
+          <span class="nav-item-title">Roles</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../05-configuracion/03-etiquetas" class="" >
+          
+          <span class="nav-item-title">Etiquetas</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../05-configuracion/04-establecimientos" class="" >
+          
+          <span class="nav-item-title">Establecimientos</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../05-configuracion/05-ubicaciones" class="" >
+          
+          <span class="nav-item-title">Ubicaciones</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../05-configuracion/06-equipamientos" class="" >
+          
+          <span class="nav-item-title">Equipamientos</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../05-configuracion/07-servicio-clinicos" class="" >
+          
+          <span class="nav-item-title">Servicio Clínicos</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../05-configuracion/08-usuarios" class="" >
+          
+          <span class="nav-item-title">Usuarios</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+        </ul>
+      
+    </li>
+    
+    <li class="collapsible"  aria-expanded="false" >
+      
+        <span class="nav-label">
+           
+<svg class="lucide-icon icon-database " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-database"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <ellipse cx="12" cy="5" rx="9" ry="3" />
+  <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+  <path d="M3 12A9 3 0 0 0 21 12" />
+</svg>
+ 
+          <span class="nav-item-title">Maestros</span>
+           
+              <span class="collapse-icon-wrapper">
+<svg class="lucide-icon icon-chevron-right collapse-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+</span>
+          
+        </span>
+      
+      
+      
+        <ul class="submenu">
+          
+    <li class="" >
+      
+        <a href="../../06-maestros/01-diagnosticos" class="" >
+          
+          <span class="nav-item-title">Diagnósticos</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../06-maestros/02-examenes" class="" >
+          
+          <span class="nav-item-title">Exámenes</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../06-maestros/03-prestaciones" class="" >
+          
+          <span class="nav-item-title">Prestaciones</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../06-maestros/04-prestadores" class="" >
+          
+          <span class="nav-item-title">Prestadores</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../06-maestros/05-personas" class="" >
+          
+          <span class="nav-item-title">Personas</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+        </ul>
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../10-otros/101-registro-cambios" class="" >
+           
+<svg class="lucide-icon icon-clock " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-clock"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 6v6l4 2" />
+</svg>
+ 
+          <span class="nav-item-title">Registro de Cambios</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+    <li class="" >
+      
+        <a href="../../10-otros/102-ejemplo" class="" >
+           
+<svg class="lucide-icon icon-book " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-book"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+</svg>
+ 
+          <span class="nav-item-title">Ejemplo</span>
+          
+          
+        </a>
+      
+      
+      
+    </li>
+    
+  </ul>
+</nav>
+
+        
+    </aside>
+
+    <div class="main-content-wrapper">
+        
+        <header class="page-header">
+            <div class="header-left">
+                
+                <button id="sidebar-toggle-button" class="sidebar-toggle-button" aria-label="Toggle Sidebar">
+                    
+<svg class="lucide-icon icon-panel-left-close " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-panel-left-close"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="18" height="18" x="3" y="3" rx="2" />
+  <path d="M9 3v18" />
+  <path d="m16 15-3-3 3-3" />
+</svg>
+
+                </button>
+                
+                <span class="header-title">Monitor Sala de Espera</span>
+            </div>
+            
+            <div class="header-right">
+                
+            </div>
+        </header>
+        
+
+        <main class="content-area" id="main-content">
+            <div class="content-layout">
+                <div class="main-content">
+                    
+                    
+                    <h1 id="monitor-sala-de-espera">Monitor Sala de Espera</h1>
+<h2 id="descripcin-general" class="docmd-heading"><a href="#descripcin-general" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Descripción General</h2>
+<p>El Monitor de Sala de Espera es una pantalla informativa diseñada para pacientes y familiares, que muestra información general sobre el estado de las cirugías sin revelar datos sensibles o identificatorios.</p>
+<h2 id="informacin-mostrada" class="docmd-heading"><a href="#informacin-mostrada" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Información Mostrada</h2>
+<h3 id="estado-general" class="docmd-heading"><a href="#estado-general" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Estado General</h3>
+<ul>
+<li><strong>Número de identificación del paciente</strong> (código anónimo o iniciales)</li>
+<li><strong>Estado del procedimiento</strong>:
+<ul>
+<li>En preparación</li>
+<li>Ingresado a quirófano</li>
+<li>Cirugía en curso</li>
+<li>Finalizando procedimiento</li>
+<li>En recuperación</li>
+<li>Disponible para visita</li>
+</ul>
+</li>
+</ul>
+<h3 id="informacin-no-sensible" class="docmd-heading"><a href="#informacin-no-sensible" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Información No Sensible</h3>
+<ul>
+<li>Hora aproximada de inicio</li>
+<li>Duración estimada</li>
+<li>Progreso aproximado (por ejemplo: 25%, 50%, 75%)</li>
+<li>Estado general: “Todo normal” o instrucciones de contacto</li>
+</ul>
+<h2 id="diseo-y-presentacin" class="docmd-heading"><a href="#diseo-y-presentacin" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Diseño y Presentación</h2>
+<h3 id="interfaz-amigable" class="docmd-heading"><a href="#interfaz-amigable" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Interfaz Amigable</h3>
+<ul>
+<li>Texto grande y legible a distancia</li>
+<li>Iconos intuitivos</li>
+<li>Código de colores suave y no alarmante</li>
+<li>Idioma claro y comprensible</li>
+</ul>
+<h3 id="cdigo-de-colores-suave" class="docmd-heading"><a href="#cdigo-de-colores-suave" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Código de Colores (Suave)</h3>
+<ul>
+<li><strong>Azul</strong>: En preparación</li>
+<li><strong>Verde</strong>: En curso / Normal</li>
+<li><strong>Celeste</strong>: Finalizando</li>
+<li><strong>Morado claro</strong>: En recuperación</li>
+<li><strong>Verde brillante</strong>: Disponible para visita</li>
+</ul>
+<h3 id="informacin-adicional" class="docmd-heading"><a href="#informacin-adicional" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Información Adicional</h3>
+<ul>
+<li>Hora actual</li>
+<li>Instrucciones generales para familiares</li>
+<li>Ubicación de servicios (cafetería, baños, etc.)</li>
+<li>Teléfono de información</li>
+</ul>
+<h2 id="proteccin-de-privacidad" class="docmd-heading"><a href="#proteccin-de-privacidad" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Protección de Privacidad</h2>
+<h3 id="datos-anonimizados" class="docmd-heading"><a href="#datos-anonimizados" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Datos Anonimizados</h3>
+<ul>
+<li>No se muestran nombres completos</li>
+<li>Se utilizan códigos o iniciales</li>
+<li>No se revela tipo específico de cirugía</li>
+<li>No se muestran complicaciones</li>
+</ul>
+<h3 id="informacin-limitada" class="docmd-heading"><a href="#informacin-limitada" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Información Limitada</h3>
+<ul>
+<li>Solo estados generales</li>
+<li>Sin detalles médicos</li>
+<li>Sin información del equipo quirúrgico</li>
+<li>Sin datos clínicos</li>
+</ul>
+<h2 id="mensajes-y-notificaciones" class="docmd-heading"><a href="#mensajes-y-notificaciones" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Mensajes y Notificaciones</h2>
+<h3 id="mensajes-estndar" class="docmd-heading"><a href="#mensajes-estndar" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Mensajes Estándar</h3>
+<ul>
+<li>“Su familiar está siendo preparado para cirugía”</li>
+<li>“El procedimiento está en curso”</li>
+<li>“El procedimiento ha finalizado, paciente en recuperación”</li>
+<li>“Puede acercarse a recepción para más información”</li>
+</ul>
+<h3 id="instrucciones-para-familiares" class="docmd-heading"><a href="#instrucciones-para-familiares" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Instrucciones para Familiares</h3>
+<ul>
+<li>Dónde esperar</li>
+<li>Qué hacer en caso de consultas</li>
+<li>Horarios de visita</li>
+<li>Normas de la sala de espera</li>
+</ul>
+<h2 id="caractersticas-tcnicas" class="docmd-heading"><a href="#caractersticas-tcnicas" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Características Técnicas</h2>
+<h3 id="actualizacin" class="docmd-heading"><a href="#actualizacin" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Actualización</h3>
+<ul>
+<li>Actualización automática cada 2-5 minutos</li>
+<li>Transiciones suaves</li>
+<li>Sin notificaciones sonoras (modo silencioso)</li>
+</ul>
+<h3 id="diseo-responsivo" class="docmd-heading"><a href="#diseo-responsivo" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Diseño Responsivo</h3>
+<ul>
+<li>Adaptable a diferentes tamaños de pantalla</li>
+<li>Optimizado para pantallas horizontales</li>
+<li>Buen contraste y legibilidad</li>
+</ul>
+<h2 id="configuracin" class="docmd-heading"><a href="#configuracin" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Configuración</h2>
+<h3 id="personalizacin" class="docmd-heading"><a href="#personalizacin" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Personalización</h3>
+<ul>
+<li>Logo del hospital</li>
+<li>Colores institucionales</li>
+<li>Mensajes personalizados</li>
+<li>Idioma(s) disponible(s)</li>
+</ul>
+<h3 id="contenido-rotativo" class="docmd-heading"><a href="#contenido-rotativo" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Contenido Rotativo</h3>
+<ul>
+<li>Información de estados de pacientes</li>
+<li>Mensajes institucionales</li>
+<li>Recomendaciones de salud</li>
+<li>Horarios y servicios</li>
+</ul>
+<h2 id="acceso" class="docmd-heading"><a href="#acceso" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Acceso</h2>
+<ul>
+<li><strong>Sin autenticación requerida</strong></li>
+<li>Acceso público</li>
+<li>Solo lectura</li>
+<li>No permite interacción</li>
+</ul>
+<h2 id="ubicacin-recomendada" class="docmd-heading"><a href="#ubicacin-recomendada" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Ubicación Recomendada</h2>
+<ul>
+<li>Sala de espera de cirugía</li>
+<li>Área de familiares</li>
+<li>Recepción de pabellón quirúrgico</li>
+<li>Pasillos de acceso a quirófanos</li>
+</ul>
+<h2 id="consideraciones-tcnicas" class="docmd-heading"><a href="#consideraciones-tcnicas" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Consideraciones Técnicas</h2>
+<h3 id="hardware" class="docmd-heading"><a href="#hardware" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Hardware</h3>
+<ul>
+<li>Pantalla de 42-55 pulgadas recomendada</li>
+<li>Resolución Full HD mínimo</li>
+<li>Montaje en pared a altura adecuada</li>
+<li>Protección contra manipulación</li>
+</ul>
+<h3 id="software" class="docmd-heading"><a href="#software" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Software</h3>
+<ul>
+<li>Navegador en modo kiosko</li>
+<li>Actualización automática</li>
+<li>Reconexión automática en caso de pérdida de red</li>
+<li>Sin controles visibles para el público</li>
+</ul>
+<h2 id="beneficios" class="docmd-heading"><a href="#beneficios" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Beneficios</h2>
+<ul>
+<li>Reduce ansiedad de familiares</li>
+<li>Disminuye consultas en recepción</li>
+<li>Mejora comunicación hospital-familia</li>
+<li>Aumenta transparencia del proceso</li>
+<li>Mejora experiencia del paciente y familia</li>
+</ul>
+<h2 id="cumplimiento-normativo" class="docmd-heading"><a href="#cumplimiento-normativo" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Cumplimiento Normativo</h2>
+<ul>
+<li>Cumple con leyes de protección de datos</li>
+<li>No expone información médica confidencial</li>
+<li>Respeta privacidad del paciente</li>
+<li>Alineado con protocolos hospitalarios</li>
+</ul>
+
+
+                    
+                    <div class="page-navigation">
+                        
+                        <a href="../../02-monitores/01-monitor-quirofano" class="prev-page">
+                            
+<svg class="lucide-icon icon-arrow-left page-nav-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-arrow-left"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m12 19-7-7 7-7" />
+  <path d="M19 12H5" />
+</svg>
+
+                            <span><small>Previous</small><strong>Monitor Quirófano</strong></span>
+                        </a>
+                        
+                        
+                        <a href="../../03-reportes/01-rem-a21" class="next-page">
+                            <span><small>Next</small><strong>REM A21</strong></span>
+                            
+<svg class="lucide-icon icon-arrow-right page-nav-icon" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-arrow-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="toc-sidebar">
+                    
+
+
+  <div class="toc-container">
+    <h2 class="toc-title">On This Page<span class="mobile-view toc-menu-button float-right">
+<svg class="lucide-icon icon-chevrons-down-up " width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+  class="lucide lucide-chevrons-down-up"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m7 20 5-5 5 5" />
+  <path d="m7 4 5 5 5-5" />
+</svg>
+</span></h2>
+    <ul class="toc-list">
+      
+        <li class="toc-item toc-level-2">
+          <a href="#descripcin-general" class="toc-link">Descripción General</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#informacin-mostrada" class="toc-link">Información Mostrada</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#estado-general" class="toc-link">Estado General</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#informacin-no-sensible" class="toc-link">Información No Sensible</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#diseo-y-presentacin" class="toc-link">Diseño y Presentación</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#interfaz-amigable" class="toc-link">Interfaz Amigable</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#cdigo-de-colores-suave" class="toc-link">Código de Colores (Suave)</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#informacin-adicional" class="toc-link">Información Adicional</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#proteccin-de-privacidad" class="toc-link">Protección de Privacidad</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#datos-anonimizados" class="toc-link">Datos Anonimizados</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#informacin-limitada" class="toc-link">Información Limitada</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#mensajes-y-notificaciones" class="toc-link">Mensajes y Notificaciones</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#mensajes-estndar" class="toc-link">Mensajes Estándar</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#instrucciones-para-familiares" class="toc-link">Instrucciones para Familiares</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#caractersticas-tcnicas" class="toc-link">Características Técnicas</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#actualizacin" class="toc-link">Actualización</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#diseo-responsivo" class="toc-link">Diseño Responsivo</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#configuracin" class="toc-link">Configuración</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#personalizacin" class="toc-link">Personalización</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#contenido-rotativo" class="toc-link">Contenido Rotativo</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#acceso" class="toc-link">Acceso</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#ubicacin-recomendada" class="toc-link">Ubicación Recomendada</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#consideraciones-tcnicas" class="toc-link">Consideraciones Técnicas</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#hardware" class="toc-link">Hardware</a>
+        </li>
+      
+        <li class="toc-item toc-level-3">
+          <a href="#software" class="toc-link">Software</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#beneficios" class="toc-link">Beneficios</a>
+        </li>
+      
+        <li class="toc-item toc-level-2">
+          <a href="#cumplimiento-normativo" class="toc-link">Cumplimiento Normativo</a>
+        </li>
+      
+    </ul>
+  </div>
+
+                </div>
+            </div>
+
+            <div class="page-footer-actions">
+                
+            </div>
+        </main>
+
+        
+
+
+<footer class="page-footer">
+    <div class="footer-content">
+        <div class="user-footer">© 2026 <a href="https://www.gesnovasalud.com">Gesnova Salud</a>.</div>
+        <div class="branding-footer">
+            Built with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path><path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"></path><path d="m18 15-2-2"></path><path d="m15 18-2-2"></path></svg> <a href="https://docmd.io" target="_blank" rel="noopener">docmd.</a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+
+    <script src="../../assets/js/docmd-main.js?v=mmceywbu"></script>
+    <script src="../../assets/js/docmd-image-lightbox.js?v=mmceywbu" ></script>
+<script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
+<script src="../../assets/js/docmd-search.js?v=mmceywbu" ></script>
+<script src="../../assets/js/init-mermaid.js?v=mmceywbu" type="module"></script>
+
+  <!-- Search Modal (Injected by @docmd/plugin-search) -->
+  <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;">
+      <div class="docmd-search-box">
+          <div class="docmd-search-header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon icon-search"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+              <input type="text" id="docmd-search-input" placeholder="Search documentation..." autocomplete="off" spellcheck="false">
+              <button onclick="window.closeDocmdSearch()" class="docmd-search-close" aria-label="Close search">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon icon-x"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+              </button>
+          </div>
+          <div id="docmd-search-results" class="docmd-search-results"></div>
+          <div class="docmd-search-footer">
+              <span><kbd class="docmd-kbd">↑</kbd> <kbd class="docmd-kbd">↓</kbd> to navigate</span>
+              <span><kbd class="docmd-kbd">ESC</kbd> to close</span>
+          </div>
+      </div>
+  </div>
+
+    
+</body>
+</html>
