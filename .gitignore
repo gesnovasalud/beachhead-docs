@@ -1,0 +1,58 @@
+# -----------------------------
+# Node.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------------
+# Build output (docmd)
+# -----------------------------
+build/
+dist/
+site/
+.output/
+
+# Si usas una carpeta personalizada de salida
+# (ajusta según tu docmd.config.js)
+# docs-build/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Coverage / Testing
+# -----------------------------
+coverage/
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+.tmp/
+.cache/
