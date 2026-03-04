@@ -2,7 +2,7 @@
 module.exports = {
   // --- Core Metadata ---
   siteTitle: 'SITGEQ - Sistema de Gestión de Quirófanos', // Main title of the site
-  siteUrl: 'docs', // e.g. https://mysite.com (Critical for SEO/Sitemap)
+  siteUrl: 'https://demo.gesnovasalud.com/docs', // e.g. https://mysite.com (Critical for SEO/Sitemap)
   basePath: '/docs/',
 
   // --- Branding ---
