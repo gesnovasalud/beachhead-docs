@@ -3,6 +3,7 @@ module.exports = {
   // --- Core Metadata ---
   siteTitle: 'SITGEQ - Sistema de Gestión de Quirófanos', // Main title of the site
   siteUrl: '', // e.g. https://mysite.com (Critical for SEO/Sitemap)
+  basePath: '/docs/',
 
   // --- Branding ---
   logo: {
