@@ -2,7 +2,7 @@
 module.exports = {
   // --- Core Metadata ---
   siteTitle: 'SITGEQ - Sistema de Gestión de Quirófanos', // Main title of the site
-  siteUrl: '/docs', // e.g. https://mysite.com (Critical for SEO/Sitemap)
+  siteUrl: 'https://demo.gesnovasalud.com/docs', // e.g. https://mysite.com (Critical for SEO/Sitemap)
 
   // --- Branding ---
   logo: {
@@ -40,6 +40,7 @@ module.exports = {
     footer: {
       style: 'minimal',    // 'minimal' or 'complete'
       content: '© ' + new Date().getFullYear() + ' [Gesnova Salud](https://www.gesnovasalud.com).',
+      hideBranding: true // Removes the docmd logo/link from the footer
       // For 'complete' style, you can add 'columns': [...] here.
     }
   },
