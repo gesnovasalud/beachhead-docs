@@ -18,7 +18,9 @@ Luego, en pantalla a continuación, se deberán completar los campos para genera
 
 Los estados de la solicitud van a depender del proceso que se este realizando, en primera instancia documento es guardado con estado "borrador", luego, misma solicitud puede ser editada para ir realizando gestión a la misma. Por último se debe presionar botón Crear
 
+Al presionar botón Crear, se generará un número de solicitud, el cuál será asignado a la creación realizada.
 
+![Ejemplo imagen](../../assets/images/Numero_solicitud.png)
 
 
 
