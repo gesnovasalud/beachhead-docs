@@ -6,7 +6,18 @@ navigation:
 
 # Solicitudes
 ## Creación de nueva solicitud
-Para crear una solicitud debe hcer click en el botón 
+Para crear una nueva solicitud, es necesario seleccionar dentro de menú "solicitudes" botón Crear solicitud.
+
+![Ejemplo imagen](../../assets/images/Crear_solicitud.png)
+
+
+
+
+
+
+
+
+
 
 
 
