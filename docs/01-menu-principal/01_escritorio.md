@@ -55,6 +55,8 @@ El escritorio muestra seis tarjetas con estadísticas en tiempo real sobre el es
 - **Contador**: Número de solicitudes con error
 - **Descripción**: Solicitudes con error
 
+![Uploading image.png…](../../assets/images/Solicitudes.png)
+
 ## Funcionalidad
 Las tarjetas del dashboard proporcionan una vista rápida del estado operativo del hospital, permitiendo identificar rápidamente:
 - Cuántas solicitudes están pendientes de completar (Borradores)
