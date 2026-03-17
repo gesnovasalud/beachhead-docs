@@ -10,6 +10,9 @@ Para crear una nueva solicitud, es necesario seleccionar dentro de menú "solici
 
 ![Ejemplo imagen](../../assets/images/Crear_solicitud.png)
 
+Luego, en pantalla a continuación, se deberán completar los campos para generar solicitud. Los campos obligatorios del documento se identifican con un asterisco en la esquina superior de las opciones a completar
+
+![Ejemplo imagen](../../assets/images/Datos_nueva_cirugia.png)
 
 
 
@@ -19,9 +22,6 @@ Para crear una nueva solicitud, es necesario seleccionar dentro de menú "solici
 
 
 
-
-
-![Ejemplo imagen](../../assets/images/logo_sitgeq.png "Texto opcional")
 
 
 #### 4 nivel
