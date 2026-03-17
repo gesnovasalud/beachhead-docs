@@ -21,9 +21,3 @@ Los estados de la solicitud van a depender del proceso que se este realizando, e
 Al presionar botón Crear, se generará un número de solicitud, el cuál será asignado a la creación realizada.
 
 ![Ejemplo imagen](../../assets/images/Numero_solicitud.png)
-
-
-
-
-
-#### 4 nivel
