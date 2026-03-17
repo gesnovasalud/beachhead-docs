@@ -51,7 +51,7 @@ El escritorio muestra seis tarjetas con estadísticas en tiempo real sobre el es
 - **Contador**: Número de solicitudes revocadas
 - **Descripción**: Solicitudes revocadas
 
-### Errores de Ingreso (triángulo)
+### Errores de Ingreso
 - **Contador**: Número de solicitudes con error
 - **Descripción**: Solicitudes con error
 
