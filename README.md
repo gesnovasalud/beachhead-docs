@@ -1,9 +1,3 @@
----
-title: "Ejemplos de formato"
-navigation:
-    priority: 102
----
-
 # Ejemplos de formato
 
 Este es un ejemplo completo de todas las opciones de formato Markdown disponibles.
