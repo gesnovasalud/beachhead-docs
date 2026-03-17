@@ -17,9 +17,9 @@ En la parte superior izquierda se muestra:
 
 ## Información del Hospital
 En la parte superior central se presenta:
-- **Nombre del hospital**: Hospital de Quilpué
+- **Nombre del hospital**: Hospital Biprovincial Quillota Petorca
 - **Botón Salir**: Permite cerrar sesión
-- **Dirección**: Calle San Martín 1270, Quilpué, Valparaíso
+- **Dirección**: Calle O´Higgins -N°2200, Quillota, Valparaíso
 - **Enlaces rápidos**:
   - **Documentación**: Acceso a la documentación del sistema
   - **GesnovaSalud**: Enlace al sitio principal de GesnovaSalud
