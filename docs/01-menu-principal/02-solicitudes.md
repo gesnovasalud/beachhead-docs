@@ -11,4 +11,7 @@ Para crear una solicitud debe hcer click en el botón
 
 ![Menú principal](/images/logo_sitgeq.png)
 
+![Alt Text](../../assets/images/logo_sitgeq.png "Optional Title")
+
+
 #### 4 nivel
