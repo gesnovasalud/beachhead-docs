@@ -7,7 +7,7 @@ navigation:
 # Agenda Prequirúrgica
 
 ## Descripción General
-La Agenda Prequirúrgica permite gestionar y planificar las citas y evaluaciones prequirúrgicas de los pacientes.
+La Agenda Prequirúrgica permite gestionar, planificar las citas y evaluaciones prequirúrgicas de los pacientes.
 
 ## Funcionalidades Principales
 
