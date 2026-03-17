@@ -26,7 +26,7 @@ jobs:
         run: npm ci
       
       - name: Build documentation
-        run: npm run build --base /docs/
+        run: npm run build
       
       - name: Checkout beachhead repository
         uses: actions/checkout@v4
