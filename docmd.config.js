@@ -64,6 +64,15 @@ module.exports = {
   // --- Navigation (Sidebar) ---
   navigation: [
     { title: 'Inicio', path: '/', icon: 'home' },
+        {
+      title: 'portada',
+      icon: 'menu',
+      collapsible: true,
+      collapsibleByDefault: false,
+      children: [
+        { title: 'portada', path: 'portada/portada' },
+        ],
+     },
     {
       title: 'Menú Principal',
       icon: 'menu',
