@@ -7,15 +7,14 @@ navigation:
 # Agenda Prequirúrgica
 
 ## Descripción General
-La Agenda Prequirúrgica permite gestionar, planificar las citas y evaluaciones prequirúrgicas de los pacientes.
+La Agenda Prequirúrgica permite gestionar, planificar y evaluar las citas prequirúrgicas de los pacientes para tener una visualización propuesta. Esto conlleva a preparar la entrevista a pacientes mediante el equipo clínico a cargo, utilizando como detalle información clínica y demográfica.
 
 ## Funcionalidades Principales
 
 ### Crear Nueva Cita
-- Seleccione el paciente
-- Defina la fecha y hora
-- Asigne el profesional responsable
-- Agregue observaciones necesarias
+Para la creación de una nueva cita, sistema permite seleccionar la visualización de todos los box (pabellones) disponibles o filtrar por el que se desee. El agendamiento se ejecuta al realizar clic en un horario que se encuentre disponible dentro del calendario.
+
+
 
 ### Visualizar Agenda
 - Vista diaria, semanal o mensual
