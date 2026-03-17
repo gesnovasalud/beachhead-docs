@@ -9,6 +9,6 @@ navigation:
 Para crear una solicitud debe hcer click en el botón 
 
 
-![Menú principal](/media/menu.jpeg)
+![Menú principal](/images/logo_sitgeq.png)
 
 #### 4 nivel
