@@ -65,9 +65,7 @@ Enlace automático: <https://www.ejemplo.com>
 
 ## Imágenes
 
-![Texto alternativo de la imagen](/media/menu.jpeg)
-
-![Imagen con título](/media/menu.jpeg "Descripción de la imagen")
+![Ejemplo imagen](../../assets/images/logo_sitgeq.png "Texto opcional")
 
 ## Tablas
 
