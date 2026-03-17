@@ -67,6 +67,6 @@ Las tarjetas del dashboard proporcionan una vista rápida del estado operativo d
 - Problemas que requieren atención inmediata (Errores de Ingreso)
 
 ## Disponibilidad de Quirófanos
-En Escritorio, también existe la posibilidad de visualizar la disponibilidad de los quirófanos del hospital, referenciando si estan bloqueados por aseo de estos o disponibles para operar.
+En Escritorio, también existe la posibilidad de visualizar la disponibilidad de los pabellones del hospital, referenciando si estan bloqueados por aseo o disponibles para su utilización.
 
-![Uploading image.png…](../../assets/images/Solicitudes.png)
+![Uploading image.png…](../../assets/images/Disponibilidad_pabellon.png)
