@@ -1,1 +1,1 @@
-https://github.com/gesnovasalud/main/assets/videos/SITGEQ-Acceso.mp4
+https://github.com/gesnovasalud/tree/assets/videos/SITGEQ-Acceso.mp4
