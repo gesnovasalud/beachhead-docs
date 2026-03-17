@@ -66,7 +66,7 @@ Las tarjetas del dashboard proporcionan una vista rápida del estado operativo d
 - Solicitudes que han sido revocadas (Revocadas)
 - Problemas que requieren atención inmediata (Errores de Ingreso)
 
-## Disponibilidad de Quirófanos
+## Disponibilidad de Pabellones
 En Escritorio, también existe la posibilidad de visualizar la disponibilidad de los pabellones del hospital, referenciando si estan bloqueados por aseo o disponibles para su utilización.
 
 ![Uploading image.png…](../../assets/images/Disponibilidad_pabellon.png)
