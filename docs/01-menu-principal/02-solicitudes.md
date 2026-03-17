@@ -21,3 +21,8 @@ Los estados de la solicitud van a depender del proceso que se este realizando, e
 Al presionar botón Crear, se generará un número de solicitud, el cuál será asignado a la creación realizada.
 
 ![Ejemplo imagen](../../assets/images/Numero_solicitud.png)
+
+## Estado de la solicitud
+Al momento de realizar gestión a las solicitudes emitidas, sistema permite cambiar de estado cada solicitud realizada, esto sirve de apoyo a la monitorización.
+
+
