@@ -65,3 +65,8 @@ Las tarjetas del dashboard proporcionan una vista rápida del estado operativo d
 - El trabajo finalizado (Completadas)
 - Solicitudes que han sido revocadas (Revocadas)
 - Problemas que requieren atención inmediata (Errores de Ingreso)
+
+## Disponibilidad de Quirófanos
+En Escritorio, también existe la posibilidad de visualizar la disponibilidad de los quirófanos del hospital, referenciando si estan bloqueados por aseo de estos o disponibles para operar.
+
+![Uploading image.png…](../../assets/images/Solicitudes.png)
