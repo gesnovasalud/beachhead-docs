@@ -93,17 +93,19 @@ module.exports = {
       icon: 'file-text',
       collapsible: true,
       children: [
-        { title: 'REM A21', path: '03-reportes/01-rem-a21' },
+        { title: 'Informe de Intervenciones', path: '03-reportes/01-informe-intervenciones' },
+        { title: 'Resumen', path: '03-reportes/02-resumen' },
+        { title: 'Uso de Pabellones', path: '03-reportes/03-uso-pabellones' },
       ],
     },
-    {
-      title: 'Lista Espera',
-      icon: 'list',
-      collapsible: true,
-      children: [
-        { title: 'Garantías Vigentes', path: '04-lista-espera/01-garantias-vigentes' },
-      ],
-    },
+    // {
+    //   title: 'Lista Espera',
+    //   icon: 'list',
+    //   collapsible: true,
+    //   children: [
+    //     { title: 'Garantías Vigentes', path: '04-lista-espera/01-garantias-vigentes' },
+    //   ],
+    // },
     {
       title: 'Configuración',
       icon: 'settings',
@@ -132,7 +134,6 @@ module.exports = {
       ],
     },
     { title: 'Registro de Cambios', path: '10-otros/101-registro-cambios', icon: 'clock' },
-    { title: 'Ejemplo', path: '10-otros/102-ejemplo', icon: 'book' },
   ],
 
   // --- Plugins ---
