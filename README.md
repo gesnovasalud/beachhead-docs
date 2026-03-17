@@ -1,3 +1,6 @@
+# Documentación de Beach Head
+
+
 # Ejemplos de formato
 
 Este es un ejemplo completo de todas las opciones de formato Markdown disponibles.
