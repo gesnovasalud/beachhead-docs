@@ -24,6 +24,8 @@ En la parte superior central se presenta:
   - **Documentación**: Acceso a la documentación del sistema
   - **GesnovaSalud**: Enlace al sitio principal de GesnovaSalud
 
+![Uploading image.png…]()
+
 ## Dashboard de Solicitudes
 El escritorio muestra seis tarjetas con estadísticas en tiempo real sobre el estado de las solicitudes:
 
