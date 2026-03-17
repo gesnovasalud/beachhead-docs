@@ -69,4 +69,4 @@ Las tarjetas del dashboard proporcionan una vista rápida del estado operativo d
 ## Disponibilidad de Pabellones
 En Escritorio, también existe la posibilidad de visualizar la disponibilidad de los pabellones del hospital, referenciando si estan bloqueados por aseo o disponibles para su utilización.
 
-![Uploading image.png…](../../assets/images/Disponibilidad_pabellon.png)
+![Uploading image.png…](../../assets/images/.png)
