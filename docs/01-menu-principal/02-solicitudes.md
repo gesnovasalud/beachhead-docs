@@ -9,9 +9,8 @@ navigation:
 Para crear una solicitud debe hcer click en el botón 
 
 
-![Menú principal](/images/logo_sitgeq.png)
 
-![Alt Text](../../assets/images/logo_sitgeq.png "Optional Title")
+![Ejemplo imagen](../../assets/images/logo_sitgeq.png "Texto opcional")
 
 
 #### 4 nivel
