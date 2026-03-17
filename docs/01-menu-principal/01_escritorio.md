@@ -15,6 +15,8 @@ En la parte superior izquierda se muestra:
 - **Avatar**: Círculo con las iniciales del usuario
 - **Nombre completo**: Nombre y apellidos del usuario que ha iniciado sesión
 
+![Uploading image.png…]()(../../assets/images/Seccion_usuario.png)
+
 ## Información del Hospital
 En la parte superior central se presenta:
 - **Nombre del hospital**: Hospital Biprovincial Quillota Petorca
@@ -24,7 +26,7 @@ En la parte superior central se presenta:
   - **Documentación**: Acceso a la documentación del sistema
   - **GesnovaSalud**: Enlace al sitio principal de GesnovaSalud
 
-![Uploading image.png…]()
+![Uploading image.png…]()(../../assets/images/Informacion_hospital.png)
 
 ## Dashboard de Solicitudes
 El escritorio muestra seis tarjetas con estadísticas en tiempo real sobre el estado de las solicitudes:
