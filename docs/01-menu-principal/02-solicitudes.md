@@ -16,7 +16,7 @@ Luego, en pantalla a continuación, se deberán completar los campos para genera
 
 ![Ejemplo imagen](../../assets/images/Estado_de_la_solicitud.png)
 
-Los estados de la solicitud van a depender del proceso que se este realizando, en primera instancia documento es guardado con estado "borrador", luego, misma solicitud puede ser editada para ir realizando gestión a la solicitud realizada. Por último se debe presionar botón Crear
+Los estados de la solicitud van a depender del proceso que se este realizando, en primera instancia documento es guardado con estado "borrador", luego, misma solicitud puede ser editada para ir realizando gestión a la misma. Por último se debe presionar botón Crear
 
 
 
