@@ -1,4 +1,5 @@
 # Documentación de Beach Head
+Hola
 
 
 # Ejemplos de formato
