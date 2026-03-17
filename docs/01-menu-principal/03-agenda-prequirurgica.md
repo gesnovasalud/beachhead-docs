@@ -14,6 +14,8 @@ La Agenda Prequirúrgica permite gestionar, planificar y evaluar las citas prequ
 ### Crear Nueva Cita
 Para la creación de una nueva cita, sistema permite seleccionar la visualización de todos los box (pabellones) disponibles o filtrar por el que se desee. El agendamiento se ejecuta al realizar clic en un horario que se encuentre disponible dentro del calendario.
 
+![Ejemplo imagen](../../assets/images/Seleccionar_box.png)
+
 
 
 ### Visualizar Agenda
