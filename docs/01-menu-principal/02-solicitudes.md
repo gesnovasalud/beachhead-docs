@@ -22,6 +22,8 @@ Al presionar botón Crear, se generará un número de solicitud, el cuál será 
 
 ![Ejemplo imagen](../../assets/images/Numero_solicitud.png)
 
+## Visualización de paso a paso
+
 ![Ejemplo imagen](../../assets/videos/Creacion_solicitud.gif)
 
 ## Estado de la solicitud
