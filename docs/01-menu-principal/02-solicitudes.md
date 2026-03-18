@@ -27,4 +27,4 @@ Al momento de realizar gestión a las solicitudes emitidas, sistema permite camb
 Para poder continuar con el siguiente proceso de agendamiento prequirúrgico, es necesario seleccionar check "Listo para prequirúrgico".
 Sin este paso, no se visualizará paciente a la hora de realizar búsqueda de su solicitud.
 
-![Ejemplo imagen](../../assets/images/Gestion_solicitud.png)
+![Ejemplo imagen](../../assets/images/.png)
