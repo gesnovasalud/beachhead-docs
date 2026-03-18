@@ -21,6 +21,12 @@ Al aperturar el proceso anterior, se visualizará un formulario correspondiente 
 
 ![Ejemplo imagen](../../assets/images/Entrevista_preqx.png)
 
+Los siguientes campos de la entrevista pre querúrgica corresponden a la contactabilidad del paciente, pudiendo ingresar la cantidad de intentos que se realiza el proceso de contacto, ya sea por los diferentes canales de comunicación (presencial, sms, llamada, entre otros).
+En primera instancia, formulario quedará registrado en estado propuesto, dando pie a que pueda existir cambios en la entrevista y posterior configuración de la tabla quirúrgica.
+Sistema da la posibilidad de crear el ducumento completado y salir de la pantalla, como también continuar con la creación de otro agendamiento prequirúrgico. 
+
+![Ejemplo imagen](../../assets/images/Contactabilidad.png)
+
 ### Visualizar Agenda
 - Vista diaria, semanal o mensual
 - Filtros por profesional, especialidad o estado
