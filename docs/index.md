@@ -10,7 +10,7 @@ navigation:
 Bienvenido a la documentación del sistema de gestión quirúrgica SITGEQ.
 
 
-![Crear Solicitud](https://raw.githubusercontent.com/gesnovasalud/beachhead-docs/refs/heads/main/assets/images/ejemplo.gif){ .lightbox }
+![Crear Solicitud](https://raw.githubusercontent.com/gesnovasalud/beachhead-docs/refs/heads/main/assets/videos/ejemplo.gif){ .lightbox }
 
 ## Navegación Rápida
 
