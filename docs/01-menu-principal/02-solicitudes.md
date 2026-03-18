@@ -22,6 +22,8 @@ Al presionar botón Crear, se generará un número de solicitud, el cuál será 
 
 ![Ejemplo imagen](../../assets/images/Numero_solicitud.png)
 
+![Ejemplo imagen](../../assets/videos/Creacion_solicitud.gif)
+
 ## Estado de la solicitud
 Al momento de realizar gestión a las solicitudes emitidas, sistema permite cambiar de estado cada solicitud realizada, esto sirve de apoyo a la monitorización.
 Para poder continuar con el siguiente proceso de agendamiento prequirúrgico, es necesario seleccionar check "Listo para prequirúrgico".
