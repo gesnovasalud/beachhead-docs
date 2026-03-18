@@ -17,7 +17,9 @@ Para la creación de una nueva cita, sistema permite seleccionar la visualizaci�
 ![Ejemplo imagen](../../assets/images/Seleccionar_box.png)
 
 ### Entrevista prequirúrgica
+Al aperturar el proceso anterior, se visualizará un formulario correspondiente a la entrevista del paciente, este documento se completará con la gestión de la revisión realizada en la solicitud. En el campo solicitud quirúrgica, se podrá buscar al paciente ya gestionado, para luego complementar con la información de los entrevistadores, además seleccionar el tipo de agendamiento en conjunto con la ubicación donde se encontrará.
 
+![Ejemplo imagen](../../assets/images/Entrevista_preqx.png)
 
 ### Visualizar Agenda
 - Vista diaria, semanal o mensual
