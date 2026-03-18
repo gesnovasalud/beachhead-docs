@@ -10,7 +10,7 @@ navigation:
 Bienvenido a la documentación del sistema de gestión quirúrgica SITGEQ.
 
 
-![Crear Solicitud](../../assets/videos/crear_solicitud_ejemplo.gif)
+![Crear Solicitud](../../assets/videos/ejemplo.gif)
 
 ## Navegación Rápida
 
