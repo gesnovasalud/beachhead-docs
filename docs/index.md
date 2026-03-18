@@ -9,12 +9,14 @@ navigation:
 
 Bienvenido a la documentación del sistema de gestión quirúrgica SITGEQ.
 
-![Crear Solicitud](../../assets/videos/ejemplo.gif)
+![Crear Solicitud](../../assets/videos/ejemplo.gif?raw=true)
 
-![Crear Solicitud](https://github.com/gesnovasalud/beachhead-docs/blob/main/assets/videos/ejemplo.gif?raw=true)
+
 
 
 ## Navegación Rápida
+
+![Crear Solicitud](https://github.com/gesnovasalud/beachhead-docs/blob/main/assets/videos/ejemplo.gif?raw=true)
 
 ### Flujo de Trabajo
 1. **Ingreso**: Crear solicitud quirúrgica
