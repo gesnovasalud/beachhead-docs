@@ -16,6 +16,7 @@ Para la creación de una nueva cita, sistema permite seleccionar la visualizaci�
 
 ![Ejemplo imagen](../../assets/images/Seleccionar_box.png)
 
+### Entrevista prequirúrgica
 
 
 ### Visualizar Agenda
