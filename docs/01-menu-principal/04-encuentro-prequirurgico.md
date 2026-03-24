@@ -12,12 +12,20 @@ En ella también se incorporan formularios para el registro clínico, además de
 
 ## Visualización previa de encuentros
 
-Para visualizar a los pacientes que se encuentran disponibilizados a su proximo encuentro prequirúrgico, es necesario que en el proceso anterior se haya cambiado el estado del agendamiento en "Agendado", si no se ha realizado este cambio, al iniciar la apertura del menú "Encuentro Prequirúrgico" no habrá ningun paciente disponible.
+Para visualizar a los pacientes que se encuentran disponibilizados a su proximo encuentro prequirúrgico, es necesario que en el proceso anterior (Agenda Prequirúrgica) se haya cambiado el estado del agendamiento en "Agendado", si no se ha realizado este cambio, al iniciar la apertura del menú "Encuentro Prequirúrgico" no habrá ningun paciente disponible.
+Plataforma posee la opción de visualizar los pacientes asignados al usuario de logueo como también los que se encuentran asignados a otros profesionales. Esta diferencia se logra al ingresar al botón Mías o Todas, para comenzar con el encuentro prequirúrgico se necesita ingresar a enlace "Iniciar encuentro". Se adjunta imagen con la información representada.
+
+![Ejemplo imagen](../../assets/images/Encuentro_preqx.png)
 
 ## Secciones del Encuentro
 
 ### Datos del Paciente
 - Información demográfica
+
+Visualización de datos demográficos del paciente provenientes de la solicitud emitida
+
+
+
 - Antecedentes médicos
 - Alergias y medicamentos actuales
 - Historia quirúrgica previa
