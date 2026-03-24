@@ -37,18 +37,18 @@ Una vez creadas las solicitudes de entrevista, quedarán de la siguiente manera:
 
 ![Ejemplo imagen](../../assets/images/Agenda_entrevista.png)
 
+### Editar Agenda
+
 Las entrevistas que se encuentran programadas, pueden sufrir modificaciones segun la evolución del paciente, por lo que es importante la existencia de poder cambiar o reprogramar entrevistas, actualizar la información del paciente o inclusive modificar al profesional asignado. Para proceder con estos cambios, se selecciona al paciente en la agenda, al presionar clic en su agendamiento, se aperturará la ventana para proceder con los cambios que se estimen.
 
-
-
-### Modificar Citas
-- Reprogramar citas existentes
-- Actualizar información del paciente
-- Cambiar profesional asignado
+![Ejemplo imagen](../../assets/images/Editar_entrevista.png)
 
 ### Cancelar Citas
-- Registrar motivo de cancelación
-- Notificar al paciente
+
+Si las citas para entrevistas no llegan a concretarse por cancelación del paciente, modificación en la prioridad de la atención u otra razón, en la misma edición de la agenda, es posible realizar registro de estos cambios, otorgando la posibilidad de informar al paciente ingresando el medio de contacto adjuntando el estado cancelado y una observación en la cancelación
+
+
+
 - Liberar el cupo en la agenda
 
 ## Reportes
