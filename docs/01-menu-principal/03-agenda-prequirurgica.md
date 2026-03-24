@@ -45,9 +45,9 @@ Las entrevistas que se encuentran programadas, pueden sufrir modificaciones segu
 
 ### Cancelar Citas
 
-Si las citas para entrevistas no llegan a concretarse por cancelación del paciente, modificación en la prioridad de la atención u otra razón, en la misma edición de la agenda, es posible realizar registro de estos cambios, otorgando la posibilidad de informar al paciente ingresando el medio de contacto adjuntando el estado cancelado y una observación en la cancelación
+Si las citas para entrevistas no llegan a concretarse por cancelación del paciente, modificación en la prioridad de la atención u otra razón, en la misma edición de la agenda, es posible realizar registro de estos cambios, otorgando la posibilidad de informar al paciente ingresando el medio de contacto, adjuntando el estado cancelado y una observación en la cancelación.
 
-
+![Ejemplo imagen](../../assets/images/Cancelacion_entrevista.png)
 
 - Liberar el cupo en la agenda
 
