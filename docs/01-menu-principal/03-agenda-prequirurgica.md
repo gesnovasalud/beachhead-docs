@@ -35,7 +35,7 @@ Los agendamientos realizados dentro del calendario de entrevistas quirúrgicas s
 
 Una vez creadas las solicitudes de entrevista, quedarán de la siguiente manera:
 
-![Ejemplo imagen](../../assets/images/Estado_de_agendamiento.png)
+![Ejemplo imagen](../../assets/images/Agenda_entrevista.png)
 
 - Vista diaria, semanal o mensual
 - Filtros por profesional, especialidad o estado
