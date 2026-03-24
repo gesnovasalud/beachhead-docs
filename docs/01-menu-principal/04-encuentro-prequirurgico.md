@@ -12,7 +12,8 @@ En ella también se incorporan formularios para el registro clínico, además de
 
 ## Visualización previa de encuentros
 
-Para visualizar a los pacientes que se encuentran disponibilizados a su proximo encuentro prequirúrgico
+Para visualizar a los pacientes que se encuentran disponibilizados a su proximo encuentro prequirúrgico, es necesario que en el proceso anterior se haya cambiado el estado del agendamiento en "Agendado", si no se ha realizado este cambio, al iniciar la apertura del menú "Encuentro Prequirúrgico" no habrá ningun paciente disponible.
+
 ## Secciones del Encuentro
 
 ### Datos del Paciente
