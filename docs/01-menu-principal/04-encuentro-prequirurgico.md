@@ -8,7 +8,11 @@ navigation:
 
 ## Descripción General
 El Encuentro Prequirúrgico es el módulo donde se registra toda la información recopilada durante la evaluación prequirúrgica del paciente.
+En ella también se incorporan formularios para el registro clínico, además de la gestión que conlleva los procesos siguientes.
 
+## Visualización previa de encuentros
+
+Para visualizar a los pacientes que se encuentran disponibilizados a su proximo encuentro prequirúrgico
 ## Secciones del Encuentro
 
 ### Datos del Paciente
