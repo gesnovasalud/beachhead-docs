@@ -29,7 +29,7 @@ Sistema da la posibilidad de crear el ducumento completado y salir de la pantall
 
 ### Visualizar Agenda
 
-Los agendamientos realizados dentro del calendario de entrevistas quirúrgicas se visualizan mediante colores respectivos según el estado en que se encuentran. La simbología representada para aquello es la siguiente:
+Los agendamientos realizados dentro del calendario de entrevistas quirúrgicas se visualizan mediante colores respectivos según el estado en que se encuentran, además, existe la posibilidad de cambiar dentro de calendario, la fecha de las entrevistas programadas. Esto se representa en la siguiente imagen:
 
 ![Ejemplo imagen](../../assets/images/Estado_de_agendamiento.png)
 
@@ -37,9 +37,9 @@ Una vez creadas las solicitudes de entrevista, quedarán de la siguiente manera:
 
 ![Ejemplo imagen](../../assets/images/Agenda_entrevista.png)
 
-- Vista diaria, semanal o mensual
-- Filtros por profesional, especialidad o estado
-- Código de colores según el tipo de evaluación
+Las entrevistas que se encuentran programadas, pueden sufrir modificaciones segun la evolución del paciente, por lo que es importante la existencia de poder cambiar o reprogramar entrevistas, actualizar la información del paciente o inclusive modificar al profesional asignado. Para proceder con estos cambios, se selecciona al paciente en la agenda, al presionar clic en su agendamiento, se aperturará la ventana para proceder con los cambios que se estimen.
+
+
 
 ### Modificar Citas
 - Reprogramar citas existentes
