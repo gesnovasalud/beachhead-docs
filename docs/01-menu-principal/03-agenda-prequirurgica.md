@@ -29,8 +29,13 @@ Sistema da la posibilidad de crear el ducumento completado y salir de la pantall
 
 ### Visualizar Agenda
 
-Los agendamientos realizados dentro del calendario de entrevistas quirúrgicas se visualizan mediante colores respectivos según el estado en que se encuentra. La simbología representada para aquello es la siguiente:
+Los agendamientos realizados dentro del calendario de entrevistas quirúrgicas se visualizan mediante colores respectivos según el estado en que se encuentran. La simbología representada para aquello es la siguiente:
 
+![Ejemplo imagen](../../assets/images/Estado_de_agendamiento.png)
+
+Una vez creadas las solicitudes de entrevista, quedarán de la siguiente manera:
+
+![Ejemplo imagen](../../assets/images/Estado_de_agendamiento.png)
 
 - Vista diaria, semanal o mensual
 - Filtros por profesional, especialidad o estado
