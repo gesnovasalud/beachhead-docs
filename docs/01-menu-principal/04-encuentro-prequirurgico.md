@@ -24,7 +24,7 @@ Plataforma posee la opción de visualizar los pacientes asignados al usuario de 
 
 Visualización de datos demográficos del paciente provenientes de la solicitud emitida
 
-
+![Ejemplo imagen](../../assets/images/Encuentro_preqx.png)
 
 - Antecedentes médicos
 - Alergias y medicamentos actuales
