@@ -1,4 +1,4 @@
-name: Deploy docmd
+name: Deploy github pages
 on:
   push:
     branches: ["main"]
