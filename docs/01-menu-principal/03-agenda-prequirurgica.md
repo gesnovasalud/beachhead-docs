@@ -27,6 +27,8 @@ Sistema da la posibilidad de crear el ducumento completado y salir de la pantall
 
 ![Ejemplo imagen](../../assets/images/Contactabilidad.png)
 
+También, se podrá llenar los requerimientos especiales como equipamiento, instrumental, insumos e insumos especiales
+
 ### Visualizar Agenda
 
 Los agendamientos realizados dentro del calendario de entrevistas quirúrgicas se visualizan mediante colores respectivos según el estado en que se encuentran, además, existe la posibilidad de cambiar dentro de calendario, la fecha de las entrevistas programadas. Esto se representa en la siguiente imagen:
