@@ -84,8 +84,10 @@ module.exports = {
       icon: 'monitor',
       collapsible: true,
       children: [
-        { title: 'Monitor Quirófano', path: '02-monitores/01-monitor-quirofano' },
-        { title: 'Monitor Sala Espera', path: '02-monitores/02-monitor-sala-espera' },
+        { title: 'Monitor Aseo', path: '02-monitores/03-monitor-aseo' },
+        { title: 'Monitor Pabellón', path: '02-monitores/01-monitor-pabellon' },
+        { title: 'Monitor Sala de Espera', path: '02-monitores/02-monitor-sala-espera' },
+        { title: 'Monitor Sala de Espera Pacientes', path: '02-monitores/04-monitor-sala-espera-pacientes' },
       ],
     },
     {
