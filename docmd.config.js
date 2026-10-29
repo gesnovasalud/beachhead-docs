@@ -111,14 +111,12 @@ module.exports = {
       icon: 'settings',
       collapsible: true,
       children: [
-        { title: 'Permisos', path: '05-configuracion/01-permisos' },
-        { title: 'Roles', path: '05-configuracion/02-roles' },
-        { title: 'Etiquetas', path: '05-configuracion/03-etiquetas' },
+        { title: 'Módulos de Configuración', path: '05-configuracion/01-modulos-configuracion' },
         { title: 'Establecimientos', path: '05-configuracion/04-establecimientos' },
         { title: 'Ubicaciones', path: '05-configuracion/05-ubicaciones' },
-        { title: 'Equipamientos', path: '05-configuracion/06-equipamientos' },
-        { title: 'Servicio Clínicos', path: '05-configuracion/07-servicio-clinicos' },
-        { title: 'Usuarios', path: '05-configuracion/08-usuarios' },
+        { title: 'Servicios Clínicos', path: '05-configuracion/07-servicio-clinicos' },
+        { title: 'Unidades de Hospitalización', path: '05-configuracion/09-unidades-hospitalizacion' },
+        { title: 'Paquetes', path: '05-configuracion/10-paquetes' },
       ],
     },
     {
