@@ -95,9 +95,7 @@ module.exports = {
       icon: 'file-text',
       collapsible: true,
       children: [
-        { title: 'Informe de Intervenciones', path: '03-reportes/01-informe-intervenciones' },
-        { title: 'Resumen', path: '03-reportes/02-resumen' },
-        { title: 'Uso de Pabellones', path: '03-reportes/03-uso-pabellones' },
+        { title: 'Reportes', path: '03-reportes/02-resumen' },
       ],
     },
     // {
