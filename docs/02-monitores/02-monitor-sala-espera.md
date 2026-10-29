@@ -7,136 +7,32 @@ navigation:
 # Monitor Sala de Espera
 
 ## Descripción General
-El Monitor de Sala de Espera es una pantalla informativa diseñada para pacientes y familiares, que muestra información general sobre el estado de las cirugías sin revelar datos sensibles o identificatorios.
+El Monitor Sala de Espera permite consultar el estado de los pacientes durante el proceso quirúrgico, desde su programación hasta el egreso. La información se organiza en dos secciones: **Pacientes en Pabellón** y **Pacientes en Recuperación**.
 
 ## Información Mostrada
 
-### Estado General
-- **Número de identificación del paciente** (código anónimo o iniciales)
-- **Estado del procedimiento**:
-  - En preparación
-  - Ingresado a quirófano
-  - Cirugía en curso
-  - Finalizando procedimiento
-  - En recuperación
-  - Disponible para visita
+### Datos del Paciente
+Cada tarjeta identifica al paciente mediante sus iniciales y muestra:
 
-### Información No Sensible
-- Hora aproximada de inicio
-- Duración estimada
-- Progreso aproximado (por ejemplo: 25%, 50%, 75%)
-- Estado general: "Todo normal" o instrucciones de contacto
+- **Estado actual** dentro del proceso quirúrgico.
+- **Cirujano** a cargo.
+- **Ubicación** del paciente.
+- **Horarios registrados** de ingreso a pabellón, inicio y fin de la intervención.
 
-## Diseño y Presentación
+### Fecha y Actualización
+En la parte superior se muestran la fecha, la hora actual y la cuenta regresiva para la siguiente recarga de la información.
 
-### Interfaz Amigable
-- Texto grande y legible a distancia
-- Iconos intuitivos
-- Código de colores suave y no alarmante
-- Idioma claro y comprensible
+## Estados del Paciente
+La leyenda inferior explica las etapas y sus colores:
 
-### Código de Colores (Suave)
-- **Azul**: En preparación
-- **Verde**: En curso / Normal
-- **Celeste**: Finalizando
-- **Morado claro**: En recuperación
-- **Verde brillante**: Disponible para visita
+- **Programada**: Asignado, pendiente de ingreso. Se identifica en gris.
+- **En Pabellón**: Ingresado, aún no inicia la intervención. Se identifica en azul.
+- **En Cirugía**: Intervención en curso. Se identifica en naranja.
+- **Salida de Quirófano**: En tránsito a recuperación. Se identifica en naranja.
+- **En Recuperación**: En sala de recuperación. Se identifica en verde.
+- **Egreso**: Alta para traslado a sala o alta. Se identifica en rojo.
 
-### Información Adicional
-- Hora actual
-- Instrucciones generales para familiares
-- Ubicación de servicios (cafetería, baños, etc.)
-- Teléfono de información
+## Visualización
+Las tarjetas se agrupan según la ubicación del paciente en el proceso. Cuando no hay pacientes en recuperación, la sección correspondiente muestra el mensaje **Sin pacientes en recuperación**.
 
-## Protección de Privacidad
-
-### Datos Anonimizados
-- No se muestran nombres completos
-- Se utilizan códigos o iniciales
-- No se revela tipo específico de cirugía
-- No se muestran complicaciones
-
-### Información Limitada
-- Solo estados generales
-- Sin detalles médicos
-- Sin información del equipo quirúrgico
-- Sin datos clínicos
-
-## Mensajes y Notificaciones
-
-### Mensajes Estándar
-- "Su familiar está siendo preparado para cirugía"
-- "El procedimiento está en curso"
-- "El procedimiento ha finalizado, paciente en recuperación"
-- "Puede acercarse a recepción para más información"
-
-### Instrucciones para Familiares
-- Dónde esperar
-- Qué hacer en caso de consultas
-- Horarios de visita
-- Normas de la sala de espera
-
-## Características Técnicas
-
-### Actualización
-- Actualización automática cada 2-5 minutos
-- Transiciones suaves
-- Sin notificaciones sonoras (modo silencioso)
-
-### Diseño Responsivo
-- Adaptable a diferentes tamaños de pantalla
-- Optimizado para pantallas horizontales
-- Buen contraste y legibilidad
-
-## Configuración
-
-### Personalización
-- Logo del hospital
-- Colores institucionales
-- Mensajes personalizados
-- Idioma(s) disponible(s)
-
-### Contenido Rotativo
-- Información de estados de pacientes
-- Mensajes institucionales
-- Recomendaciones de salud
-- Horarios y servicios
-
-## Acceso
-- **Sin autenticación requerida**
-- Acceso público
-- Solo lectura
-- No permite interacción
-
-## Ubicación Recomendada
-- Sala de espera de cirugía
-- Área de familiares
-- Recepción de pabellón quirúrgico
-- Pasillos de acceso a quirófanos
-
-## Consideraciones Técnicas
-
-### Hardware
-- Pantalla de 42-55 pulgadas recomendada
-- Resolución Full HD mínimo
-- Montaje en pared a altura adecuada
-- Protección contra manipulación
-
-### Software
-- Navegador en modo kiosko
-- Actualización automática
-- Reconexión automática en caso de pérdida de red
-- Sin controles visibles para el público
-
-## Beneficios
-- Reduce ansiedad de familiares
-- Disminuye consultas en recepción
-- Mejora comunicación hospital-familia
-- Aumenta transparencia del proceso
-- Mejora experiencia del paciente y familia
-
-## Cumplimiento Normativo
-- Cumple con leyes de protección de datos
-- No expone información médica confidencial
-- Respeta privacidad del paciente
-- Alineado con protocolos hospitalarios
+Para una vista resumida por paciente, se puede consultar el [Monitor Sala de Espera Pacientes](04-monitor-sala-espera-pacientes.md).

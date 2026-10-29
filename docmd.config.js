@@ -84,8 +84,10 @@ module.exports = {
       icon: 'monitor',
       collapsible: true,
       children: [
-        { title: 'Monitor Quirófano', path: '02-monitores/01-monitor-quirofano' },
-        { title: 'Monitor Sala Espera', path: '02-monitores/02-monitor-sala-espera' },
+        { title: 'Monitor Aseo', path: '02-monitores/03-monitor-aseo' },
+        { title: 'Monitor Pabellón', path: '02-monitores/01-monitor-pabellon' },
+        { title: 'Monitor Sala de Espera', path: '02-monitores/02-monitor-sala-espera' },
+        { title: 'Monitor Sala de Espera Pacientes', path: '02-monitores/04-monitor-sala-espera-pacientes' },
       ],
     },
     {
@@ -93,9 +95,7 @@ module.exports = {
       icon: 'file-text',
       collapsible: true,
       children: [
-        { title: 'Informe de Intervenciones', path: '03-reportes/01-informe-intervenciones' },
-        { title: 'Resumen', path: '03-reportes/02-resumen' },
-        { title: 'Uso de Pabellones', path: '03-reportes/03-uso-pabellones' },
+        { title: 'Reportes', path: '03-reportes/02-resumen' },
       ],
     },
     // {
@@ -111,14 +111,12 @@ module.exports = {
       icon: 'settings',
       collapsible: true,
       children: [
-        { title: 'Permisos', path: '05-configuracion/01-permisos' },
-        { title: 'Roles', path: '05-configuracion/02-roles' },
-        { title: 'Etiquetas', path: '05-configuracion/03-etiquetas' },
+        { title: 'Módulos de Configuración', path: '05-configuracion/01-modulos-configuracion' },
         { title: 'Establecimientos', path: '05-configuracion/04-establecimientos' },
         { title: 'Ubicaciones', path: '05-configuracion/05-ubicaciones' },
-        { title: 'Equipamientos', path: '05-configuracion/06-equipamientos' },
-        { title: 'Servicio Clínicos', path: '05-configuracion/07-servicio-clinicos' },
-        { title: 'Usuarios', path: '05-configuracion/08-usuarios' },
+        { title: 'Servicios Clínicos', path: '05-configuracion/07-servicio-clinicos' },
+        { title: 'Unidades de Hospitalización', path: '05-configuracion/09-unidades-hospitalizacion' },
+        { title: 'Paquetes', path: '05-configuracion/10-paquetes' },
       ],
     },
     {
@@ -131,6 +129,9 @@ module.exports = {
         { title: 'Prestaciones', path: '06-maestros/03-prestaciones' },
         { title: 'Prestadores', path: '06-maestros/04-prestadores' },
         { title: 'Personas', path: '06-maestros/05-personas' },
+        { title: 'Insumos', path: '06-maestros/06-insumos' },
+        { title: 'Especialidades', path: '06-maestros/07-especialidades' },
+        { title: 'Catálogo de Equipamientos', path: '06-maestros/08-catalogo-equipamientos' },
       ],
     },
     { title: 'Registro de Cambios', path: '10-otros/101-registro-cambios', icon: 'clock' },

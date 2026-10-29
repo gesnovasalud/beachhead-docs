@@ -16,7 +16,7 @@ Luego, en pantalla a continuación, se deberán completar los campos para genera
 
 ![Ejemplo imagen](../../assets/images/Estado_de_la_solicitud.png)
 
-Los estados de la solicitud van a depender del proceso que se este realizando, en primera instancia documento es guardado con estado "borrador", luego, misma solicitud puede ser editada para ir realizando gestión a la misma. Por último se debe presionar botón Crear.
+El campo obligatorio "Estado de la solicitud" permite elegir entre **Agendado**, **Egreso** e **Inicial**. Una solicitud nueva se crea en estado "Inicial"; luego la misma solicitud puede ser editada para ir realizando gestión a la misma. Por último se debe presionar botón Crear.
 
 Al presionar botón Crear, se generará un número de solicitud, el cuál será asignado a la creación realizada.
 
@@ -28,7 +28,17 @@ Al presionar botón Crear, se generará un número de solicitud, el cuál será 
 
 ## Estado de la solicitud
 Al momento de realizar gestión a las solicitudes emitidas, sistema permite cambiar de estado cada solicitud realizada, esto sirve de apoyo a la monitorización.
-Para poder continuar con el siguiente proceso de agendamiento prequirúrgico, es necesario seleccionar check "Listo para prequirúrgico".
-Sin este paso, no se visualizará paciente a la hora de realizar búsqueda de su solicitud.
 
-![Ejemplo imagen](../../assets/images/Gestion_solicitud.png)
+En el campo **Estado de la solicitud** (obligatorio, se identifica con asterisco), ubicado bajo el campo "Observaciones", se selecciona uno de los siguientes estados. El estado elegido se destaca con color:
+
+- **Inicial**: Estado en el que queda la solicitud al ser creada, antes de su agendamiento. Se muestra en gris cuando está seleccionado.
+- **Agendado**: La solicitud ya cuenta con agenda.
+- **Egreso**: La solicitud ha finalizado. Se muestra en verde cuando está seleccionado. Al elegir este estado se despliegan tres campos obligatorios adicionales:
+  - **Motivo de cierre**: Lista desplegable para seleccionar el motivo ("Seleccione una opción").
+  - **Fecha de resolución**: Fecha en formato dd-mm-yyyy.
+  - **Encargado del cierre**: Lista desplegable para seleccionar el prestador responsable ("Seleccione un prestador").
+
+![Estado Inicial](../../assets/images/Estado_de_la_solicitud.png)
+
+![Estado Egreso](../../assets/images/Estado_egreso.png)
+
