@@ -9,6 +9,8 @@ navigation:
 ## Descripción General
 El Encuentro Quirúrgico es el registro completo de todo lo acontecido durante el procedimiento quirúrgico.
 
+![Ejemplo imagen](../../assets/images/encuentroqx_visualizacion.png)
+
 ## Etapas del Encuentro Quirúrgico
 
 ### 1. Pre-operatorio Inmediato
