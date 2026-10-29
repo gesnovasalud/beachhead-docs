@@ -39,6 +39,11 @@ Una vez creadas las solicitudes de entrevista, quedarán de la siguiente manera:
 
 ![Ejemplo imagen](../../assets/images/Agenda_entrevista.png)
 
+Ademas de un listado
+
+![Ejemplo imagen](../../assets/images/Listado_Agenda_entrevista.png)
+
+
 ### Editar Agenda
 
 Las entrevistas que se encuentran programadas, pueden sufrir modificaciones segun la evolución del paciente, por lo que es importante la existencia de poder cambiar o reprogramar entrevistas, actualizar la información del paciente o inclusive modificar al profesional asignado. Para proceder con estos cambios, se selecciona al paciente en la agenda, al presionar clic en su agendamiento, se aperturará la ventana para proceder con los cambios que se estimen.

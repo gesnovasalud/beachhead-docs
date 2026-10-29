@@ -7,60 +7,50 @@ navigation:
 # Encuentro Prequirúrgico
 
 ## Descripción General
-El Encuentro Prequirúrgico es el módulo donde se registra toda la información recopilada durante la evaluación prequirúrgica del paciente.
-En ella también se incorporan formularios para el registro clínico, además de la gestión que conlleva los procesos siguientes.
+El Encuentro Prequirúrgico permite revisar y actualizar la solicitud quirúrgica, completar los datos del encuentro y acceder a los formularios asociados a la evaluación del paciente antes de la cirugía.
 
 ## Visualización previa de encuentros
 
-Para visualizar a los pacientes que se encuentran disponibilizados a su proximo encuentro prequirúrgico, es necesario que en el proceso anterior (Agenda Prequirúrgica) se haya cambiado el estado del agendamiento en "Agendado", si no se ha realizado este cambio, al iniciar la apertura del menú "Encuentro Prequirúrgico" no habrá ningun paciente disponible.
-Plataforma posee la opción de visualizar los pacientes asignados al usuario de logueo como también los que se encuentran asignados a otros profesionales. Esta diferencia se logra al ingresar al botón Mías o Todas, para comenzar con el encuentro prequirúrgico se necesita ingresar a enlace "Iniciar encuentro". Se adjunta imagen con la información representada.
+Para que un paciente esté disponible en el módulo, el agendamiento correspondiente debe encontrarse en estado **Agendado** en la Agenda Prequirúrgica. Desde el listado es posible revisar los encuentros asignados al usuario (**Mías**) o consultar todos (**Todas**). Para comenzar, se debe seleccionar **Iniciar encuentro**.
 
-![Ejemplo imagen](../../assets/images/Encuentro_preqx.png)
+## Solicitud quirúrgica
+
+En la sección **Editar** se revisan los antecedentes de la solicitud y se pueden actualizar sus datos. El resumen lateral identifica la solicitud mediante su número y muestra información del paciente, el box y la fecha del encuentro.
 
 ## Secciones del Encuentro
 
-### Datos del Paciente
-- Información demográfica
+### Datos generales
 
-Visualización de datos demográficos del paciente provenientes de la solicitud emitida
+La solicitud reúne la fecha, el paciente y el prestador solicitante. También permite indicar el origen de la solicitud —ambulatorio, urgencia, hospitalizado o traslado coordinado—, asignar etiquetas y seleccionar el tipo de pabellón. Para solicitudes de pacientes hospitalizados, la pantalla indica que se debe seleccionar una sola opción de tipo de pabellón.
 
-![Ejemplo imagen](../../assets/images/Encuentro_preqx.png)
+### Diagnósticos y prestaciones
 
-- Antecedentes médicos
-- Alergias y medicamentos actuales
-- Historia quirúrgica previa
+Se pueden agregar diagnósticos y prestaciones a la solicitud. El primer diagnóstico corresponde al principal, y la primera prestación corresponde a la cirugía principal. Según la prestación, se registran datos como sitio de operación, plano, extremidad, GES y frecuencia. La sección también incluye la descripción de la cirugía propuesta.
 
-### Evaluación Médica
-- Examen físico
-- Signos vitales
-- Evaluación de riesgo quirúrgico
-- Clasificación ASA
+![Ejemplo imagen](../../assets/images/encuentropreqx_datosgenerales.png)
 
-### Exámenes Complementarios
-- Laboratorio (hemograma, perfil bioquímico, etc.)
-- Electrocardiograma
-- Radiografías
-- Otros estudios según protocolo
+### Planificación y estado de la solicitud
 
-### Evaluación Anestésica
-- Tipo de anestesia recomendada
-- Evaluación de vía aérea
-- Riesgos anestésicos
-- Consentimiento informado
+Entre los datos de planificación se encuentran el método anestésico, la prioridad y su fundamento, el requerimiento de comité, el tiempo quirúrgico estimado, el servicio clínico y la asignación de camas, camillas, cunas o bergere. El formulario permite agregar observaciones y definir el estado de la solicitud (**Agendado**, **Egreso** o **Inicial**), además de indicar si está lista para prequirúrgico.
 
-### Preparación Quirúrgica
-- Indicaciones preoperatorias
-- Ayuno
-- Medicación prequirúrgica
-- Recomendaciones especiales
+![Ejemplo imagen](../../assets/images/encuentropreqx_planificacion.png)
 
-## Finalizar Encuentro
-Una vez completada toda la información, el encuentro debe ser:
-- Revisado por el profesional responsable
-- Firmado digitalmente
-- Guardado en el expediente del paciente
+## Formularios asociados
 
-## Impresión y Documentación
-- Generar resumen de evaluación prequirúrgica
-- Imprimir consentimientos informados
-- Adjuntar resultados de exámenes
+Desde el panel lateral se accede a los formularios vinculados a la solicitud, entre ellos **Ingreso Prequirúrgico**, **Evaluación Preanestésica**, **Consentimiento Informado**, **Pauta Evaluación ETE**, **Pauta ETE Cesárea** y **Preparación Preoperatoria**. La disponibilidad de cada formulario se muestra en la sección **Formularios asociados**.
+
+## Detalles del encuentro prequirúrgico
+
+En esta sección se registran los participantes y los datos del encuentro:
+
+- **Fecha de inicio** y **fecha de fin**.
+- **Modalidad de atención** y **tipo específico**.
+- **Estado prequirúrgico**: listo para cirugía, en preparación, no apto, en espera administrativa o caso suspendido.
+- **En condición de cirugía** y **resultado evaluación prequirúrgica**.
+- **Estado del encuentro**: planeado, llegado, triado, en progreso, en pausa, finalizado, cancelado, ingresado por error o desconocido.
+
+Al terminar la edición, se selecciona **Guardar cambios** para conservar la información o **Cancelar** para salir sin guardar.
+
+## Accesos complementarios
+
+En la parte superior se encuentran accesos a **Medidas Antropométricas** y **Alergias**, para consultar información relevante del paciente durante la revisión de la solicitud y del encuentro.
