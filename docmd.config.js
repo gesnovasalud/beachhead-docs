@@ -134,7 +134,6 @@ module.exports = {
         { title: 'Catálogo de Equipamientos', path: '06-maestros/08-catalogo-equipamientos' },
       ],
     },
-    { title: 'Registro de Cambios', path: '10-otros/101-registro-cambios', icon: 'clock' },
   ],
 
   // --- Plugins ---
